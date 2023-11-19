@@ -18,6 +18,22 @@ function classificarIMC(IMC) {
 
 }
 
+//main
+
+(function () {
+  const peso = 94
+  const altura = 1.75
+  
+  const calculo = calcularImc(peso,altura)
+  const IMC = calculo.toFixed(2)
+  console.log(classificarIMC(IMC))
+
+})();
+
+
+/*
+
+
 function main() {
     const peso = 94
     const altura = 1.75
@@ -30,6 +46,8 @@ function main() {
 
 main()
 
+
+*/
 
 
 
